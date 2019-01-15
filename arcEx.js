@@ -5,8 +5,8 @@ let centerX = 50;
 let centerY = 50;
 let radius = 30;
 let startingAngle = 0;
-let endingAngle = 1 * Math.PI;
-let counterclockwise = true;
+let endingAngle = 0.5 * Math.PI;
+let counterclockwise = false;
 context.arc(centerX, centerY, radius, startingAngle, endingAngle, counterclockwise);
 
 context.lineWidth = 15;
